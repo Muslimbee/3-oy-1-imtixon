@@ -1,0 +1,290 @@
+.section-2{
+    width: 1920px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    main{
+        width: 85%;
+        height: 85%;
+        display: flex;
+        .main-logo{
+            width: 50%;
+            height: 100%;
+            .logo-small{
+                width: 190px;
+                height: 80px;
+                position: absolute;
+                background-image: url(/img/image\ 4.png);
+                z-index: 1;
+                left: 10%;
+                top: 535%;
+            }
+            .logo-big{
+                width: 190px;
+                height: 180px;
+                position: absolute;
+                background-image: url(/img/image\ 3.png);
+                z-index: 1;
+                left: 10%;
+                top: 514%;
+            }
+            img{
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .main-list{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .list-checkbox{
+                width: 466px;
+                height: 338px;
+                margin-left: 350px;
+                overflow-y: hidden;
+                h1{
+                    color: #232340;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 64px;
+                    overflow-y: hidden;
+                }
+                p{
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color: rgba(35, 35, 64, 0.90);
+                    align-self: stretch;
+                    margin-top: 24px;
+                                }
+                a{
+                    width: 129px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 500;
+                    color: #5468E7;
+                    margin-top: 55px;
+                    margin-left: -13px;
+                    i{
+                        margin-top: 4px;
+                        color: #5468E7;
+                    }
+            }
+        }
+    }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .section-2{
+        width: 768px;
+        height: 500px;
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        main{
+            width: 100%;
+            height: 100%;
+                    display: flex;
+            .main-logo{
+                width: 50%;
+                height: 100%;
+                background-size: cover;
+                .logo-small{
+                    width: 190px;
+                    height: 80px;
+                    position: absolute;
+                    background-image: url(/img/image\ 4.png);
+                    z-index: 1;
+                    left: 2%;
+                    top: 390%;
+                }
+                .logo-big{
+                    width: 190px;
+                    height: 180px;
+                    position: absolute;
+                    background-image: url(/img/image\ 3.png);
+                    z-index: 1;
+                    left: 2%;
+                    top: 368%;
+                }
+                img{
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .main-list{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .list-checkbox{
+                    width: 100%;
+                    height: 100%;
+                     margin-left: 3px;
+                    overflow-y: hidden;
+                    h1{
+                        color: #232340;
+                        font-size: 70px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 70px;
+                        overflow-y: hidden;
+                            }
+                    p{
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 27px;
+                        color: rgba(35, 35, 64, 0.90);
+                        align-self: stretch;
+                        margin-top: 24px;
+                        overflow-y: hidden;
+                                        }
+                    a{
+                        width: 129px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: 500;
+                        color: #5468E7;
+                        margin-top: 50px;
+                        margin-left: -13px;
+                        i{
+                            margin-top: 4px;
+                            color: #5468E7;
+                        }
+                }
+            }
+        }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 390px){
+    .section-2{
+        width: 768px;
+        height: 800px;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 140px;
+        main{
+            width: 100%;
+            height: 100%;
+                    display: flex;
+            flex-direction: column;
+            .main-logo{
+                width: 50%;
+                height: 350px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                overflow-y: hidden;
+                .logo-small{
+                    width: 190px;
+                    height: 80px;
+                    position: absolute;
+                    background-image: url(/img/image\ 4.png);
+                    z-index: 1;
+                    left: 2%;
+                    top: 507%;
+                }
+                .logo-big{
+                    width: 190px;
+                    height: 180px;
+                    position: absolute;
+                    background-image: url(/img/image\ 3.png);
+                    z-index: 1;
+                    left: 2%;
+                    top: 482%;
+                }
+                img{
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                }
+            }
+            .main-list{
+                width: 50%;
+                height: 450px;
+                            display: flex;
+                align-items: center;
+                justify-content: center;
+                .list-checkbox{
+                    width: 100%;
+                    height: 100%;
+                        margin-left: 3px;
+                    overflow-y: hidden;
+                    // margin-top: 70px;
+                    overflow-x: hidden;
+
+                    h1{
+                        color: #232340;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 40px;
+                        overflow-y: hidden;
+                                width: 320px;
+                        height: 126px;
+                                            margin-left: 35px;
+                        width: 268px;
+                        height: 126px;
+                        margin-top: 50px;
+
+                    }
+                    p{
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 27px;
+                        color: rgba(35, 35, 64, 0.90);
+                        align-self: stretch;
+                        margin-top: 24px;
+                        width: 330px;
+                        height: 126px;
+                                            margin-left: 35px;
+                                        }
+                    a{
+                        width: 129px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                                            font-weight: 500;
+                        color: #5468E7;
+                        margin-top: 50px;
+                        margin-left: 25px;
+                        i{
+                            margin-top: 4px;
+                            color: #5468E7;
+                        }
+                }
+            }
+        }
+        }
+    }
+
+
+}

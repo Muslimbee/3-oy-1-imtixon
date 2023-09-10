@@ -1,0 +1,434 @@
+footer {
+  width: 1920px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #232340;
+}
+footer .footer-card {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  overflow: hidden;
+  gap: 200px;
+}
+footer .footer-card .card-1 {
+  width: 168px;
+  height: 114px;
+  overflow: hidden;
+}
+footer .footer-card .card-1 h6 {
+  font-size: 16px;
+  width: 100%;
+  height: 46px;
+  overflow: hidden;
+  font-weight: 400;
+  margin-top: 15px;
+  color: #fff;
+}
+footer .footer-card .card-2 {
+  width: 112px;
+  height: 100%;
+  overflow: hidden;
+}
+footer .footer-card .card-2 h2 {
+  overflow: hidden;
+  width: 112px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #5468E7;
+  margin-left: -33px;
+}
+footer .footer-card .card-2 li {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  color: #fff;
+  margin-left: -30px;
+}
+footer .footer-card .card-3 {
+  width: 142px;
+  height: 100%;
+  overflow: hidden;
+}
+footer .footer-card .card-3 h2 {
+  overflow: hidden;
+  width: 112px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #5468E7;
+  margin-left: -43px;
+}
+footer .footer-card .card-3 li {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  color: #fff;
+  margin-left: -30px;
+}
+footer .footer-card .card-4 {
+  width: 138px;
+  height: 100%;
+  overflow: hidden;
+}
+footer .footer-card .card-4 h2 {
+  overflow: hidden;
+  width: 112px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #5468E7;
+  margin-left: -45px;
+}
+footer .footer-card .card-4 li {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  color: #fff;
+  margin-left: -30px;
+}
+footer .footer-card .card-5 {
+  width: 300px;
+  height: 100%;
+}
+footer .footer-card .card-5 h2 {
+  overflow: hidden;
+  width: 112px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #5468E7;
+  margin-left: -30px;
+}
+footer .footer-card .card-5 li {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  color: #fff;
+  margin-left: -30px;
+}
+footer .footer-card .card-5 input {
+  width: 268px;
+  height: 46px;
+  padding: 11px 16px;
+  border-radius: 4px;
+  background: rgba(245, 245, 245, 0.24);
+  color: white;
+  border: 1px solid rgba(245, 245, 245, 0.24);
+  text-decoration-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    width: 768px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #232340;
+  }
+  footer .footer-card {
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 200px;
+  }
+  footer .footer-card .card-1 {
+    width: 168px;
+    height: 114px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -150px;
+  }
+  footer .footer-card .card-1 h6 {
+    font-size: 16px;
+    width: 100%;
+    height: 46px;
+    overflow: hidden;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #fff;
+  }
+  footer .footer-card .card-2 {
+    width: 112px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+  footer .footer-card .card-2 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -33px;
+  }
+  footer .footer-card .card-2 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-3 {
+    width: 142px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 55%;
+  }
+  footer .footer-card .card-3 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -18px;
+  }
+  footer .footer-card .card-3 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-4 {
+    width: 138px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 30%;
+  }
+  footer .footer-card .card-4 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -20px;
+  }
+  footer .footer-card .card-4 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-5 {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 430px;
+  }
+  footer .footer-card .card-5 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-5 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-5 input {
+    width: 268px;
+    height: 46px;
+    padding: 11px 16px;
+    border-radius: 4px;
+    background: rgba(245, 245, 245, 0.24);
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.24);
+    text-decoration-color: #fff;
+  }
+}
+@media screen and (max-width: 390px) {
+  footer {
+    width: 390px;
+    height: 730px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #232340;
+  }
+  footer .footer-card {
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 200px;
+  }
+  footer .footer-card .card-1 {
+    width: 168px;
+    height: 114px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -150px;
+  }
+  footer .footer-card .card-1 h6 {
+    font-size: 16px;
+    width: 100%;
+    height: 46px;
+    overflow: hidden;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #fff;
+  }
+  footer .footer-card .card-2 {
+    width: 112px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 350px;
+  }
+  footer .footer-card .card-2 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -33px;
+  }
+  footer .footer-card .card-2 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-3 {
+    width: 112px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+  }
+  footer .footer-card .card-3 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -42px;
+  }
+  footer .footer-card .card-3 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-4 {
+    width: 138px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    display: none;
+  }
+  footer .footer-card .card-4 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -20px;
+  }
+  footer .footer-card .card-4 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-5 {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+  }
+  footer .footer-card .card-5 h2 {
+    overflow: hidden;
+    width: 112px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #5468E7;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-5 li {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    color: #fff;
+    margin-left: -30px;
+  }
+  footer .footer-card .card-5 input {
+    width: 268px;
+    height: 46px;
+    padding: 11px 16px;
+    border-radius: 4px;
+    background: rgba(245, 245, 245, 0.24);
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.24);
+    text-decoration-color: #fff;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

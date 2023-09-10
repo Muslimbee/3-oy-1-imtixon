@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#5b30d1, #675454);
+    border-radius: 10px;
+}
+header{
+    width: 1920px;
+    height: 1005px;
+    margin: 0 auto;
+    background-image: url(/img/christina-wocintechchat-com-L85a1k-XqH8-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .nav-bar{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        transition: .3s;
+        background-color: rgba(0, 255, 255, 0);
+        .nav-bar-left-logo{
+            width: 25%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            img{
+                width: 138px;
+                height: 52px;
+                        }
+        }
+        .nav-bar-right-list{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 56px;
+            i{
+                display: none;
+            }
+            a{
+                color: #F5F5F5;
+                text-shadow: 0px 8px 16px rgba(35, 35, 64, 0.60);
+                font-weight: 500;
+            }
+            button{
+                width: 184px;
+                height: 47px;
+                background: rgba(84, 104, 231, 0.50);
+                border-radius: 4px;
+                color: #F5F5F5;
+                font-size: 18px;
+                font-weight: 400;
+
+            }
+            button:hover{
+                background: rgba(54, 68, 157, 0.978);
+            }
+            
+        }
+    }
+    // .nav-bar:hover{
+    //     background-color:rgba(54, 68, 157, 0.978);
+    //     position: fixed;
+    // }
+    // .nav-bar::before{
+    //     background-color:rgba(54, 68, 157, 0.978);
+    // }
+    // nav bar finished 
+
+
+
+    .body-place{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        .body-place-left{
+            width: 48%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .body-place-list{
+                width: 563px;
+                height: 301px;
+                    h1{
+                    color: #F5F5F5;
+                    font-size: 55px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 64px;
+                     overflow-y: hidden;
+                }
+                p{
+                    width: 397px;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color:#F5F5F5
+                    
+                }
+                .body-place-list-checkbox{
+                    width: 100%;
+                    height: 47px;
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        width: 55%;
+                        height: 100%;
+                        padding-left: 16px;
+                        border-radius: 4px ;
+                    }
+                    button{
+                        width: 40%;
+                        height: 100%;
+                        background: rgba(84, 104, 231, 0.978);
+                        border: rgba(84, 104, 231, 0.978);
+                        border-radius: 4px;
+                        color: #F5F5F5;
+                        font-size: 18px;
+                        font-weight: 400;
+                       
+                    }
+                    button:hover{
+                        background: rgba(30, 57, 234, 0.978);
+                    }
+                }
+
+            }
+        }
+        .body-place-right{
+            width: 52%;
+            height: 100%;
+        }
+    }
+
+
+    
+}
+
+@media screen and (max-width: 768px){
+    header{
+        width: 768px;
+        height: 935px;
+        margin: 0 auto;
+        background-image: url(/img/christina-wocintechchat-com-L85a1k-XqH8-unsplash\ 2.png);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-size: cover;
+        .nav-bar{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            transition: .3s;
+            background-color: rgba(0, 255, 255, 0);
+            .nav-bar-left-logo{
+                width: 25%;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                img{
+                    width: 138px;
+                    height: 52px;
+                                }
+            }
+            .nav-bar-right-list{
+                width: 75%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                i{
+                    display: none;
+                }
+                a{
+                    color: #F5F5F5;
+                    text-shadow: 0px 8px 16px rgba(35, 35, 64, 0.60);
+                    font-weight: 500;
+                    margin-top: 10px;
+                    margin-left: -10px;
+                }
+                button{
+                    width: 184px;
+                    height: 47px;
+                    background: rgba(84, 104, 231, 0.50);
+                    border-radius: 4px;
+                    color: #F5F5F5;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 10px;
+    
+                }
+                button:hover{
+                    background: rgba(54, 68, 157, 0.978);
+                }
+                
+            }
+        }
+        // .nav-bar:hover{
+        //     background-color:rgba(54, 68, 157, 0.978);
+        //     position: fixed;
+        // }
+        // .nav-bar::before{
+        //     background-color:rgba(54, 68, 157, 0.978);
+        // }
+        // nav bar finished 
+    
+    
+    
+        .body-place{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            .body-place-left{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .body-place-list{
+                    width: 563px;
+                    height: 301px;
+                    margin-left: -60px;
+                            h1{
+                        color: #F5F5F5;
+                        font-size: 55px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 64px;
+                         overflow-y: hidden;
+                    }
+                    p{
+                        width: 397px;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 27px;
+                        color:#F5F5F5
+                        
+                    }
+                    .body-place-list-checkbox{
+                        width: 100%;
+                        height: 47px;
+                        display: flex;
+                        justify-content: space-between;
+                        input{
+                            width: 55%;
+                            height: 100%;
+                            padding-left: 16px;
+                            border-radius: 4px ;
+                        }
+                        button{
+                            width: 40%;
+                            height: 100%;
+                            background: rgba(84, 104, 231, 0.978);
+                            border: rgba(84, 104, 231, 0.978);
+                            border-radius: 4px;
+                            color: #F5F5F5;
+                            font-size: 18px;
+                            font-weight: 400;
+                           
+                        }
+                        button:hover{
+                            background: rgba(30, 57, 234, 0.978);
+                        }
+                    }
+    
+                }
+            }
+            .body-place-right{
+                width: 1%;
+                height: 100%;
+                    display: none;
+            }
+        }
+    
+    
+        
+    }
+}
+
+@media screen and (max-width: 390px){
+    header{
+        width: 390px;
+        height: 844px;
+        margin: 0 auto;
+        background-image: url(/img/laptop-\ girl.png);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-size: cover;
+        .nav-bar{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            transition: .3s;
+            background-color: rgba(0, 255, 255, 0);
+            .nav-bar-left-logo{
+                width: 50%;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                img{
+                    width: 138px;
+                    height: 52px;
+                                }
+            }
+            .nav-bar-right-list{
+                width: 50%;
+                background-image: url();
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                i{
+                    display: inline;
+                    font-size: 40px;
+                    color: white;
+                    margin-left: 100px;
+                    margin-top: 10px;
+                }
+                a{
+                display: none;
+
+                }
+                button{
+
+                display: none;
+
+
+    
+                }
+                button:hover{
+                    background: rgba(54, 68, 157, 0.978);
+                }
+                
+            }
+        }
+        // .nav-bar:hover{
+        //     background-color:rgba(54, 68, 157, 0.978);
+        //     position: fixed;
+        // }
+        // .nav-bar::before{
+        //     background-color:rgba(54, 68, 157, 0.978);
+        // }
+        // nav bar finished 
+    
+    
+    
+        .body-place{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            .body-place-left{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .body-place-list{
+                    width: 260px;
+                    height: 502px;                            margin: 0 auto;
+                    h1{
+                        color: #F5F5F5;
+                        font-size: 34px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 44px;
+                         overflow-y: hidden;
+                    }
+                    p{
+                        width: 397px;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 27px;
+                        color:#F5F5F5
+                        
+                    }
+                    .body-place-list-checkbox{
+                        width: 100%;
+                        height: 100px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        gap: 15px;
+                        input{
+                            width: 100%;
+                            height: 47px;
+                            padding-left: 16px;
+                            border-radius: 4px ;
+                        }
+                        button{
+                            width: 100%;
+                            height: 47px;
+                            background: rgba(84, 104, 231, 0.978);
+                            border: rgba(84, 104, 231, 0.978);
+                            border-radius: 4px;
+                            color: #F5F5F5;
+                            font-size: 18px;
+                            font-weight: 400;
+                           
+                        }
+                        button:hover{
+                            background: rgba(30, 57, 234, 0.978);
+                        }
+                    }
+    
+                }
+            }
+            .body-place-right{
+                width: 1%;
+                height: 100%;
+                display: none;
+            }
+        }
+    
+    
+        
+    }
+}

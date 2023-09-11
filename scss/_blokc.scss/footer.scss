@@ -1,9 +1,12 @@
 footer{
-    width: 1920px;
+    // width: 1920px;
     height: 500px;
-      
-    margin: 0 auto;
     background-color: #232340;
+    .contiyner{
+        margin: 0 auto;
+        width: 1920px;
+ 
+    }
     .footer-card{
         width: 90%;
         height: 150px;
@@ -229,7 +232,7 @@ footer{
                     font-size: 24px;
                     text-align: center;
                     color: #5468E7;
-                    margin-left: -18px;
+                    margin-left: -42px;
                 }
                 li{
                     font-size: 14px;
@@ -255,7 +258,7 @@ footer{
                     font-size: 24px;
                     text-align: center;
                     color: #5468E7;
-                    margin-left: -20px;
+                    margin-left: -46px;
                     
                 }
                 li{
@@ -361,7 +364,7 @@ footer{
                     font-size: 24px;
                     text-align: center;
                     color: #5468E7;
-                    margin-left: -33px;
+                    margin-left: -35px;
                 }
                 li{
                     font-size: 14px;
@@ -390,7 +393,7 @@ footer{
                     font-size: 24px;
                     text-align: center;
                     color: #5468E7;
-                    margin-left: -42px;
+                    margin-left: -45px;
                 }
                 li{
                     font-size: 14px;
@@ -418,7 +421,7 @@ footer{
                     font-size: 24px;
                     text-align: center;
                     color: #5468E7;
-                    margin-left: -20px;
+                    margin-left: -10px;
                     
                 }
                 li{

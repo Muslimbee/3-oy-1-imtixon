@@ -1,8 +1,10 @@
 footer {
-  width: 1920px;
   height: 500px;
-  margin: 0 auto;
   background-color: #232340;
+}
+footer .contiyner {
+  margin: 0 auto;
+  width: 1920px;
 }
 footer .footer-card {
   width: 90%;
@@ -207,7 +209,7 @@ footer .footer-card .card-5 input {
     font-size: 24px;
     text-align: center;
     color: #5468E7;
-    margin-left: -18px;
+    margin-left: -42px;
   }
   footer .footer-card .card-3 li {
     font-size: 14px;
@@ -233,7 +235,7 @@ footer .footer-card .card-5 input {
     font-size: 24px;
     text-align: center;
     color: #5468E7;
-    margin-left: -20px;
+    margin-left: -46px;
   }
   footer .footer-card .card-4 li {
     font-size: 14px;
@@ -329,7 +331,7 @@ footer .footer-card .card-5 input {
     font-size: 24px;
     text-align: center;
     color: #5468E7;
-    margin-left: -33px;
+    margin-left: -35px;
   }
   footer .footer-card .card-2 li {
     font-size: 14px;
@@ -356,7 +358,7 @@ footer .footer-card .card-5 input {
     font-size: 24px;
     text-align: center;
     color: #5468E7;
-    margin-left: -42px;
+    margin-left: -45px;
   }
   footer .footer-card .card-3 li {
     font-size: 14px;
@@ -383,7 +385,7 @@ footer .footer-card .card-5 input {
     font-size: 24px;
     text-align: center;
     color: #5468E7;
-    margin-left: -20px;
+    margin-left: -10px;
   }
   footer .footer-card .card-4 li {
     font-size: 14px;
